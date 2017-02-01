@@ -14,6 +14,9 @@
 #include "Move.h"
 #include "Player.h"
 
+#define PLAYING Player()
+#define TIE Player("null")
+
 class Board {
 private:
     std::vector<std::vector<Player> > b;
