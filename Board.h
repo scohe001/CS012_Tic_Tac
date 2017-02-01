@@ -15,7 +15,7 @@
 #include "Player.h"
 
 #define PLAYING Player()
-#define TIE Player("null")
+#define TIE Player("TIE")
 
 class Board {
 private:
